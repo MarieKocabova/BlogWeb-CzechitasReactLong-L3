@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo {
+  width: 20rem;
+  height: 10rem;
+  background-image: url(./img/logoBlog.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.blog-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 2rem;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.blog-box {
+  margin: 5%;
+  padding-bottom: 7%;
+  border-radius: 5px;
+  background-color: #e6e4e4;
+}
+
+.blog-image {
+  max-width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  object-fit: fill;
+  margin-bottom: 20px;
+}
+
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.read-more-link {
+  font-size: small;
+  text-transform: uppercase;
+  color: rgb(73, 64, 64);
+  font-weight: 700;
+}
+
+.footer {
+  text-align: center;
+  margin: 5% 5% 5% 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgb(126, 126, 126);
+}
+
+.meta {
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
