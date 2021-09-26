@@ -54,9 +54,9 @@ const Blog = (props) => (
     <img src={props.image} alt="" className="blog-image" />
     <h2 className="blog-heading">{props.heading}</h2>
     <div className="meta">
-      <small>autor: {props.author}| </small>
-      <small> {props.postDate}|</small>
-      <small> {props.readingTime}min čtení</small>
+      <small>
+        autor: {props.author}| {props.postDate}| {props.readingTime} min čtení
+      </small>
     </div>
     <p className="blog-text">{props.text}</p>
     <a href={props.link} className="read-more-link">
